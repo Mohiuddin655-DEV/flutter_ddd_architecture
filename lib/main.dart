@@ -14,7 +14,24 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         // This is the theme of your application.
-        //
+        //├── application
+        // │   ├── dto
+        // │   ├── *_service.dart
+        // ├── domain
+        // │   ├── model
+        // │   └── service
+        // ├── infrastructure
+        // │   ├── firebase
+        // │   ├── repository
+        // │   └── sqflite
+        // ├── main.dart
+        // └── presentation
+        //     ├── notifier
+        //     └── ui
+        //         └── pages
+        //         └── templates
+        //         └── organisms
+        //         └── atoms
         // TRY THIS: Try running your application with "flutter run". You'll see
         // the application has a blue toolbar. Then, without quitting the app,
         // try changing the seedColor in the colorScheme below to Colors.green
